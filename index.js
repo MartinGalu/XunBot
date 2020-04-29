@@ -10,5 +10,8 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
+// Load config
+const config = require('./config.json').development;
+
 // login to Discord with your app's token
-client.login('NjUxODQwMjQwNDE5NjAyNDM1.Xqm5-Q.N9ij_pvy4xI2SOkJ2eviCfBy2n8');
+client.login(config.discord_token);
