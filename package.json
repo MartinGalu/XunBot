@@ -1,0 +1,22 @@
+{
+  "name": "xunbot",
+  "version": "1.0.0",
+  "description": "Discord bot for personal use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinGalu/XunBot.git"
+  },
+  "author": "Xunrise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinGalu/XunBot/issues"
+  },
+  "homepage": "https://github.com/MartinGalu/XunBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
